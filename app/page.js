@@ -7,7 +7,7 @@ export default function Home() {
       {/* Top Lines. */}
       <div className="flex flex-col gap-y-1 items-center justify-center">
         <p className="text-3xl text-sky-300">Welcome to Animal Tracker.</p>
-        <p className="text-sm">
+        <p className="text-md">
           We provide visualization, analysis, research and tracking of animals.
         </p>
       </div>

@@ -6,12 +6,11 @@ import { Separator } from './ui/separator'
 import { AnimalCard } from './AnimalCard'
 
 const AnimalDetails = ({ src }) => {
-  console.log(src)
   const animal = animals.find((animal) => animal.animal === src)
   if (!animal) return null
 
   return (
-    <div className="flex flex-col m-4 rounded-lg shadow-md shadow-blue-200 px-2 py-2 border-blue-300 border-2 gap-x-2 overflow-scroll">
+    <div className="flex flex-col m-4 rounded-lg shadow-md shadow-gray-700 px-2 py-2 gap-x-2">
       <div className="flex m-4 rounded-lg  gap-x-2">
         <div className="w-2/5">
           {/* Title. */}

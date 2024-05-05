@@ -31,7 +31,7 @@ export function CarouselAnimals() {
         {animals.map((animal, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <Card className="">
+              <Card className="shadow-md shadow-gray-800">
                 {/* Card Header. */}
                 <CardHeader>
                   <Image

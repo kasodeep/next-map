@@ -116,8 +116,7 @@ export const animals = [
             content: "Migration patterns can vary, but typically elephants migrate during the dry season when water and food become scarce. The exact months and duration of migration depend on regional climatic conditions and resource availability."
          }
       ]
-   }
-   ,
+   },
    {
       animal: "humpbackwhale",
       title: "Humpback Whale (Megaptera novaeangliae)",
@@ -156,8 +155,7 @@ export const animals = [
             content: "Migration timing can vary depending on the population and location, but humpback whales typically migrate during the winter months to breed and give birth in warmer tropical waters. The duration of their migrations can range from a few weeks to several months, with individuals often covering thousands of kilometers during their journey."
          }
       ]
-   }
-   ,
+   },
    {
       animal: "blackcappedpetrel",
       title: "Black-capped Petrel (Pterodroma hasitata)",
@@ -196,8 +194,7 @@ export const animals = [
             content: "Migration timing can vary depending on the population and location, but Black-capped Petrels typically migrate to their breeding grounds in late winter or early spring and return to their non-breeding grounds in late summer or early fall. The duration of their migrations can range from several weeks to several months, with individuals covering vast distances over the open ocean."
          }
       ]
-   }
-   ,
+   },
    {
       animal: "barnswallow",
       title: "Barn Swallow (Hirundo rustica)",
@@ -236,8 +233,7 @@ export const animals = [
             content: "Migration timing can vary depending on the population and location, but Barn Swallows typically migrate in spring and fall. They begin their northward migration in spring, returning to their breeding grounds to nest and raise their young. The southward migration occurs in fall, as they return to their wintering grounds to escape the colder temperatures of the Northern Hemisphere winter."
          }
       ]
-   }
-   ,
+   },
    {
       animal: "whippoorwill",
       title: "Whip-poor-will (Antrostomus vociferus)",
@@ -276,8 +272,7 @@ export const animals = [
             content: "Migration timing for Whip-poor-wills can vary depending on local conditions and environmental factors. They typically breed in the spring and summer months, with nesting activity peaking in late spring and early summer. During the non-breeding season, they may move to lower elevations or more sheltered areas within their range."
          }
       ]
-   }
-   ,
+   },
    {
       animal: "flyingfox",
       title: "Black Flying Fox (Pteropus melanotus)",
@@ -395,11 +390,9 @@ export const animals = [
          }
       ]
    }
-   ,
 ]
 
 export const links = [
    "/",
    "about",
-   "papers"
 ]

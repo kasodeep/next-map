@@ -21,7 +21,7 @@ export function Menu() {
     <Sheet className="overflow-scroll">
       {/* Trigger Button. */}
       <SheetTrigger asChild>
-        <Button>Open</Button>
+        <Button>Navigate</Button>
       </SheetTrigger>
       <SheetContent side="left">
         {/* Sheet Header. */}
