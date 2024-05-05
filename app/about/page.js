@@ -15,7 +15,7 @@ const About = () => {
 
          {/* Links */}
          <div>
-            Here are the links of our research papers we referred: "TODO"
+            Here are the links of our research papers we referred: TODO
          </div>
       </div>
    )

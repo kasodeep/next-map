@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="flex gap-x-2">
         {links.map((link) => {
           return (
-            <Link href={link}>
+            <Link href={link} key={link}>
               <Button variant="outline">{`${
                 link === '/' ? 'HOME' : link.toUpperCase()
               }`}</Button>

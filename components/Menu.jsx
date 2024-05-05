@@ -34,7 +34,7 @@ export function Menu() {
         </SheetHeader>
         {/* Content. */}
         <div className="grid gap-4 py-4">
-          {animals.map((animal, index) => {
+          {animals.map((animal) => {
             return (
               <Link href={animal.animal} key={animal.animal}>
                 <Button
