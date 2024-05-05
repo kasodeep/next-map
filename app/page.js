@@ -1,9 +1,8 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { CarouselAnimals } from "@/components/Carousel";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-y-4">
+    <section className="flex flex-col items-center justify-center gap-y-4 w-full">
 
       {/* Top Lines. */}
       <div className="flex flex-col gap-y-1 items-center justify-center">
@@ -13,15 +12,8 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Bottom Lines. */}
-      <div className="flex flex-col gap-y-1 items-center justify-center">
-        <p className="text-sm">Get started with Caracel.</p>
-        <Link href="/caracel1">
-          <Button>
-            Caracel
-          </Button>
-        </Link>
-      </div>
+      {/* Carousel. */}
+      <CarouselAnimals />
     </section>
   );
 }

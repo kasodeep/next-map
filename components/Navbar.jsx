@@ -15,7 +15,9 @@ const Navbar = () => {
         {links.map((link) => {
           return (
             <Link href={link}>
-              <Button variant="outline">{link.toUpperCase()}</Button>
+              <Button variant="outline">{`${
+                link === '/' ? 'HOME' : link.toUpperCase()
+              }`}</Button>
             </Link>
           )
         })}

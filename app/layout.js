@@ -1,6 +1,7 @@
-import { Inter, Space_Mono } from "next/font/google";
+import { Space_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import 'next-cloudinary/dist/cld-video-player.css'
 
 const space = Space_Mono({ subsets: ["latin"], weight: ["400", "700"] });
 

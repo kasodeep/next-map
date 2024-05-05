@@ -3,7 +3,6 @@
 import { Button } from '@/components/ui/button'
 import {
   Sheet,
-  SheetClose,
   SheetContent,
   SheetDescription,
   SheetFooter,
@@ -37,11 +36,13 @@ export function Menu() {
         <div className="grid gap-4 py-4">
           {animals.map((animal, index) => {
             return (
-              <Link href={animal} key={animal}>
+              <Link href={animal.animal} key={animal.animal}>
                 <Button
-                  variant={`${pathName === '/' + animal ? 'default' : 'link'}`}
+                  variant={`${
+                    pathName === '/' + animal.animal ? 'default' : 'link'
+                  }`}
                 >
-                  {animal.toUpperCase()}
+                  {animal.animal.toUpperCase()}
                 </Button>
               </Link>
             )
