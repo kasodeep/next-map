@@ -39,7 +39,7 @@ export function CarouselAnimals() {
                     alt={animal.animal}
                     width={400}
                     height={400}
-                    className="rounded-lg shadow-md"
+                    className="rounded-lg shadow-md shadow-gray-800"
                   />
                 </CardHeader>
 

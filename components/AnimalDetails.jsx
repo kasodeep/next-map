@@ -4,6 +4,7 @@ import { animals } from '@/constants'
 import { CldVideoPlayer } from 'next-cloudinary'
 import { Separator } from './ui/separator'
 import { AnimalCard } from './AnimalCard'
+import Image from 'next/image'
 
 const AnimalDetails = ({ src }) => {
   const animal = animals.find((animal) => animal.animal === src)
@@ -11,10 +12,17 @@ const AnimalDetails = ({ src }) => {
 
   return (
     <div className="flex flex-col m-4 rounded-lg shadow-md shadow-gray-700 px-2 py-2 gap-x-2">
-      <div className="flex m-4 rounded-lg  gap-x-2">
-        <div className="w-2/5">
+      <div className="flex m-4 rounded-lg  gap-x-2 max-sm:flex-col">
+        <div className="w-2/5 max-sm:w-full">
           {/* Title. */}
-          <span className="text-xl font-semibold">{animal.title}</span>
+          <span className="text-xl font-semibold mb-2">{animal.title}</span>
+          <Image
+            src={`/${animal.animal}.png`}
+            alt={animal.animal}
+            width={200}
+            height={200}
+            className="rounded-full shadow-md shadow-gray-800"
+          />
 
           <Separator className="my-2 mx-1" />
 
@@ -23,7 +31,7 @@ const AnimalDetails = ({ src }) => {
         </div>
 
         {/* Video Player. */}
-        <div className="rounded w-3/5">
+        <div className="rounded w-3/5 max-sm:w-full">
           <CldVideoPlayer width={800} height={400} src={src} autoPlay={true} />
         </div>
       </div>
