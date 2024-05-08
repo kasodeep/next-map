@@ -12,11 +12,6 @@ const About = () => {
             <li className='font-semibold'>3) Priyansh Katariya (221080030)</li>
             <li className='font-semibold'>4) Ayush Gulhane (221080023)</li>
          </ul>
-
-         {/* Links */}
-         <div>
-            Here are the links of our research papers we referred: TODO
-         </div>
       </div>
    )
 }
