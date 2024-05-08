@@ -1,4 +1,6 @@
 import { CarouselAnimals } from "@/components/Carousel";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,6 +11,13 @@ export default function Home() {
         <p className="text-3xl text-sky-300">Welcome to Animal Tracker.</p>
         <p className="text-md">
           We provide visualization, analysis, research and tracking of animals.
+        </p>
+        <p>Check out the Qgis maps, hosted by us:
+          <Link href="https://obinayke.nextgis.com/resource/45/display?panel=layers" target="_blank">
+            <Button className="ml-2">
+              MAPS!
+            </Button>
+          </Link>
         </p>
       </div>
 
